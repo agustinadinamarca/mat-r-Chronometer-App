@@ -5,7 +5,7 @@ This app implements a precision timer. It indicates how long it took to perform 
 
 **Programming Language:** mat|r script
 
-**Test the App:** download the [mat|r Viewer](http://matrproject.com/docs/eng/viewer-eng/), a tool which allows you visualizing and testing the developed app instantly in compatible platforms. Visualize the app on your phone scanning the following QR code with mat|r Viewer:
+**Test App:** download the [mat|r Viewer](http://matrproject.com/docs/eng/viewer-eng/), a tool which allows you visualizing and testing the developed app instantly in compatible platforms. Visualize the app on your phone scanning the following QR code with mat|r Viewer:
 
 <img src="Images/qr-chronometer.png" width="20%" height="20%">
 
