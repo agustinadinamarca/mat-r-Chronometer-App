@@ -1,0 +1,22 @@
+<layout alpha="1" backgroundColor="#0F0F0FFF" fontFamily="Roboto, sans-serif" paddingRight="28" paddingTop="18" paddingBottom="18" paddingLeft="28" mode="ScaleToFill" name="Main">
+    <datasource type="Main" name="main"/>
+    <label wpercentage="1" alpha="1" marginTop="150" marginBottom="120" marginLeft="0" marginRight="0" paddingRight="2" paddingTop="2" paddingBottom="2" paddingLeft="2" textColor="#FFFFFFFF" fontFamily="Roboto-Regular" fontSize="50" textAlignment="center" bind="main.time"/>
+    <list alpha="1" backgroundColor="#0F0F0FFF" fontFamily="Roboto-Light" marginTop="0" marginBottom="120" marginLeft="0" marginRight="0" paddingRight="0" paddingTop="0" paddingBottom="0" paddingLeft="0" textColor="#F0F0F0FF" height="180" fontSize="18" wpercentage="0.85" selfAlignment="center" textAlignment="center" bind="main.tms"/>
+    <hcontainer wpercentage="1" alpha="1" fontFamily="Roboto, sans-serif" marginTop="0" marginBottom="0" marginLeft="0" marginRight="0" paddingRight="0" paddingTop="0" paddingBottom="0" paddingLeft="0" contentAlignment="center">
+        <image width="70" height="70" bind="main.img_2">
+            <event on="TapEvent">
+                <action type="InvokeFunctionAction" moduleName="MainModule" functionName="func2"/>
+            </event>
+        </image>
+        <image selfAlignment="center" width="70" height="70" bind="main.img_1">
+            <event on="TapEvent">
+                <action type="RunRuleAction" ruleContext="MainContext" ruleName="start"/>
+            </event>
+        </image>
+        <image width="70" height="70" bind="main.img_3">
+            <event on="TapEvent">
+                <action type="InvokeFunctionAction" moduleName="MainModule" functionName="func1"/>
+            </event>
+        </image>
+    </hcontainer>
+</layout>
