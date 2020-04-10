@@ -3,4 +3,4 @@ Data and code of Chronometer App, a mobile application developed with [mat|r scr
 
 **Programming Language:** mat|r script
 
-![Fig](Images/img.jpg | width=100)
+![Fig](Images/img.jpg =50x20)
