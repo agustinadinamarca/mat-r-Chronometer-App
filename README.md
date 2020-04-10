@@ -7,7 +7,7 @@ This app implements a precision timer. It indicates how long it took to perform 
 
 **Test the App:** download the [mat|r Viewer](http://matrproject.com/docs/eng/viewer-eng/), a tool which allows you visualizing and testing the developed app instantly in compatible platforms. Visualize the app on your phone scanning the following QR code with mat|r Viewer:
 
-<img src="Images/." width="30%" height="30%">
+<img src="Images/qr-chronometer.png" width="20%" height="20%">
 
 **Author:** Agustina Dinamarca (agustinadinamarca@gmail.com)
 
