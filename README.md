@@ -5,4 +5,6 @@ This app implements a precision timer. It indicates how long it took to perform 
 
 **Programming Language:** mat|r script
 
+**Author:** Agustina Dinamarca (agustinadinamarca@gmail.com)
+
 <img src="Images/img.jpg" width="30%" height="30%">
